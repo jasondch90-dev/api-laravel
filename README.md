@@ -2,7 +2,7 @@
 
 Este proyecto es una API RESTful desarrollada en Laravel para la gestión de productos (CRUD: Crear, Leer, Actualizar, Eliminar). Incluye una interfaz visual web construida con HTML, Bootstrap y JavaScript (Fetch API) para interactuar con los endpoints de manera amigable.
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 * **Laravel 13** (Framework PHP)
 * **PHP 8.3**
 * **SQLite** (Base de datos local)
@@ -10,7 +10,7 @@ Este proyecto es una API RESTful desarrollada en Laravel para la gestión de pro
 * **JavaScript Nativo** (Conexión del frontend con la API)
 * **Thunder Client** (Herramienta para pruebas de API)
 
-## 🧪 Proceso de Desarrollo y Pruebas
+##  Proceso de Desarrollo y Pruebas
 El desarrollo se llevó a cabo en dos fases:
 1. **Pruebas del Backend:** Primero, se construyó y validó toda la lógica de la API (endpoints y validaciones) utilizando **Thunder Client**, enviando peticiones POST, GET, PUT y DELETE para comprobar que las respuestas JSON y los códigos de estado (200, 201, 404, etc.) fueran correctos.
 2. **Desarrollo del Frontend:** Una vez que la API estuvo 100% funcional, se creó la interfaz visual para consumirla mediante `fetch`.
@@ -20,7 +20,7 @@ El desarrollo se llevó a cabo en dos fases:
 * Composer
 * Git
 
-## ⚙️ Instalación y Uso
+##  Instalación y Uso
 
 1. Clona el repositorio en tu máquina local:
    ```bash
@@ -46,7 +46,7 @@ Inicia el servidor de desarrollo:
 
 bash
 php artisan serve
-🌐 Endpoints de la API
+Endpoints de la API
 Método	Endpoint	Descripción
 GET	/api/productos	Lista todos los productos
 POST	/api/productos	Crea un nuevo producto
@@ -61,7 +61,7 @@ json
   "precio": 1500.50,
   "stock": 10
 }
-🖥️ Interfaz Visual (Frontend)
+ Interfaz Visual (Frontend)
 Para acceder al panel donde puedes gestionar los productos con un diseño amigable, debes tener el servidor encendido y visitar:
 http://127.0.0.1:8000/panel-productos
 
